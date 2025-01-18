@@ -1,7 +1,7 @@
-Project Title: Capstone Project - Initial Financial Data Upload
+Project Title: Capstone Project - Financial Data 
 
 Description:
-This repository contains the initial raw data for the capstone project focused on financial analysis. The dataset includes essential financial data for Meta Platforms, Inc., organized across several sheets to provide comprehensive insights into the company's fiscal health and performance. The initial data covers:
+This repository contains the start to end material and project resourses for the capstone project focused on financial analysis. The dataset includes essential financial data for 5 major companies Meta Platforms, Google, Snapchat, Microsoft, Apple and we organized across several sheets to provide comprehensive insights into the company's fiscal health and performance. The initial data covers:
 
 Balance Sheet: Key metrics on assets, liabilities, and equity, detailing Meta's financial position over time.
 Income Statement: Detailed income data, including revenues, expenses, and net income figures.
