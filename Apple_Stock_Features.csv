@@ -1,0 +1,20 @@
+Feature Name,Definition,Formula
+Week Date,The specific date for the stock data.,N/A (Date Field)
+Close,The last traded price of Apple's stock on that day.,Last traded price on the given date.
+High,The highest price at which Apple's stock was traded during the day.,max(price over the day)
+Low,The lowest price at which Apple's stock was traded during the day.,min(price over the day)
+Open,The price at which Apple's stock started trading on that day.,First traded price on the given date.
+Volume,The total number of shares traded during the day.,Sum of shares traded during the day.
+VWAP,"Volume Weighted Average Price, an average trading price weighted by volume.",(Sum(price * volume) / Sum(volume))
+Adjusted Close,"The closing price adjusted for splits, dividends, etc.",Close price adjusted for stock splits and dividends.
+Market Cap,The total market value of all outstanding shares of the company.,Stock Price * Number of Shares Outstanding
+Bid Price,The highest price a buyer is willing to pay for Apple's stock.,Highest price a buyer is willing to pay.
+Ask Price,The lowest price a seller is willing to accept for Apple's stock.,Lowest price a seller is willing to accept.
+SMA_50,Simple Moving Average of closing prices over 50 days.,(Sum of closing prices over 50 days) / 50
+EMA_50,Exponential Moving Average of closing prices over 50 days.,"(EMA = Price(t) * α + EMA(y) * (1 - α), where α = 2/(50+1))"
+RSI,"Relative Strength Index, indicating overbought/oversold conditions.","RSI = 100 - (100 / (1 + RS)), RS = (Avg Gain / Avg Loss)"
+MACD,Difference between the 12-day and 26-day EMA.,MACD = (12-day EMA) - (26-day EMA)
+MACD Signal,"9-day EMA of the MACD, used as a buy/sell signal.",9-day EMA of MACD
+MACD Hist,Difference between MACD and MACD Signal (momentum strength).,MACD Hist = MACD - MACD Signal
+Target Variable - High,Future predicted high price (for forecasting).,Future high price (for forecasting purposes).
+Target Variable - Low,Future predicted low price (for forecasting).,Future low price (for forecasting purposes).
